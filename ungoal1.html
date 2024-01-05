@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>UN Goals: Quality of Life</title>
+	<link href="index.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+
+
+</head>
+
+<!-- START OF THE NAV BAR -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light ">
+
+	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavMenu"
+		aria-controls="myNavMenu" aria-expanded="false" aria-label="Toggle Navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="myNavMenu">
+		<ul class="navbar-nav mr-auto active">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html " style="color: white;">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="issues1.html">Issues</a>
+			</li>
+			<li class="nav-item dropdown active">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+					Goals</a>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="ungoal1.html"> Quality of Life </a></li>
+					<li><a class="dropdown-item" href="ungoal2.html"> Economic Conditions </a></li>
+					<li><a class="dropdown-item" href="ungoal3.html"> Sustainability and Climate Control </a></li>
+				</ul>
+			</li>
+
+
+			<li class="nav-item active">
+				<a class="nav-link" href="About.html">About</a>
+			</li>
+		</ul>
+	</div>
+
+</nav>
+<!-- END OF THE NAVBAR-->
+
+<body>
+
+	<!-- 	introduction message + JUMBOTRON -->
+	<div class="jumbotron" style="background-image: url('img/livingStateImg.jpg'); height: 200;">
+		<div>
+			<h1 style="color: #fff; text-align: center; padding-top: 25px;" ;">Quality of Life</h1>
+		</div>
+	</div>
+	<p style="text-align: center;  padding-left: 75px; padding-right: 75px; padding-bottom: 15px;">
+		<strong>The World Health Organization (WHO) defines Quality of Life (QoL) as an individual's perception of their
+			position in life in the context of culture and value systems in which they live and in relation to their
+			goals, expectation, standards and concerns. Citizens in Brazil will have very different outlooks on their
+			quality of life depending on where they live as access to resources varies greatly. The large disparity gap
+			between uppper and lower clases in the country driven by corrupt government and business practices has
+			affected social issues such as education, housing, and crime. </strong>
+		<br>
+		<br>
+		<strong>Although there are difficult living conditions and limited resources for a large portion of the
+			population, there is still a strong culture that thrives and an environemnt that attracts many visitors
+			around the world. Many of the social issues that the country is facing have been exposed globally and there
+			is more awareness now to see how these issues are being handled by the governemnt.</strong>
+		<br>
+		<br>
+		<strong>Continue reading more below to find out how the country is working towards addressing social issues
+			pertaining to the U.N. goals for providing quality education, reducing poverty, and improving health and
+			well-being. </strong>
+
+	</p>
+	<!-- 	end of intro message -->
+
+	<!-- 	start of facts carousel -->
+	<div id="carouselText1" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+		<ol class="carousel-indicators">
+			<li data-target="#carouselText1" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselText1" data-slide-to="1"></li>
+			<li data-target="#carouselText1" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-innerFacts">
+
+			<div class="carousel-item active mt-4 mb-3">
+				<h3 align="center" style="color: #fff;">"Brazil has the most murders of any country by total number at
+					62,318."</h3>
+				<h5 align="center"><em>- UNODC: Global Study on Homicide</em></h5>
+			</div>
+
+
+			<div class="carousel-item mt-4 mb-3">
+				<h3 align="center" style="color: #fff;">"17% of high school graduates are proficient in math and 28% are
+					proficient in the country's official language."
+				</h3>
+				<h5 align="center"><em>- OECD: Programme for international student assessment</em></h5>
+			</div>
+
+			<div class="carousel-item mt-4 mb-3">
+				<h3 align="center" style="color: #fff;">"The top 1% of the population in Brazil earns about 33 times
+					more than the bottom
+					50%."</h3>
+				<h5 align="center"><em>- OXFAM</em></h5>
+			</div>
+
+		</div>
+
+	</div>
+	<!--end of carousel-->
+
+	<button id="revealBtn" type="button" class="btn">Read more here!</button>
+
+	<!-- Start of goals container -->
+	<div class="UNgoals1">
+		<div class="container">
+			<a id="toBottom" href="#toTop">Bottom</a>
+			<div class="card-deck">
+				<!-- Education goal -->
+				<div class="education">
+					<h1>Education</h1>
+					<p><img align="right" src="img/educationImg1.jpg" title="Click me!" alt="Education in Brazil"
+							class="eduImg">
+						<img align="right" src="img/eduStatImg1.jpg" alt="Poor education" class="eduGraphImg">
+						Access to quality education has been a challenge for many citizens of Brazil. The education
+						system is divided and has a history of low equality, however policies has been implemeneted to
+						set a change in motion.
+						<br>
+						<br>
+						In 2014, the country introduced the National Education Plan, which sets goals for improving the
+						quality of education for all social-economic groups at all levels and a target for investments
+						into education system. This plan aims to combat exclusion through education as knowledge and
+						skills acquired gives individuals more social and economic opportunity. Through increased
+						funding, cities are able to improve schools infrastrucure as well as provide more resources for
+						students and teachers. <br>
+						<br>
+						These initiatives show that the Brazillian government recognizes issues within the education
+						system and is working towards improving the quality and access across their nation. As the
+						countries workforce education grows it will directly contribute to the economy by creating
+						opportunities that promote prosperity.
+					</p>
+				</div>
+			</div>
+
+			<!-- Poverty goal -->
+			<div class="card-deck">
+				<div class="poverty">
+					<h1>Poverty</h1>
+					<p><img align="left" src="img/povertyImg1.jpg" title="Click me!" alt="Poverty in Brazil"
+							class="povertyImg">
+						<img align="left" src="img/wealthBrazil.jpg" alt="Income" class="wealthImg">
+						It is apparant in some of Brazils major cities the amount of poverty and inequality seen in
+						urban areas. Improper and corrupt management in the Brazillian government has created issues and
+						a large gap in dispartity between economic groups. Although politics have created many of these
+						problems, there are still some key initiaves that have been implemented to give opportunity to
+						lower-income groups.
+						<br>
+						<br>
+						The most popular measure that has been created to address poverty is the Bolsa Familia program.
+						Introduced in 2003 by president Lula da Silva, the program offers cash transfers to low-income
+						families on the condition that they send their children to school, receive healthcare, and are
+						properly vaiccinated. This government inititaive has done a great deal to support those in
+						poverty and helped to improve health and education among many families. Due to the
+						succesffulness of the program, it has been expanded to cover more families that are impacted. In
+						addition to this program, the government has also implemented tax reforms created to reduce
+						economic inequality by taxing higher-income earners and distributing the money to fund social
+						programs that benefit those in poverty.
+						<br>
+						<br>
+						Seeing success in these programs and initiatives provides good feedback for continued
+						investment. The country has come a long way since addressing these issues, but will need to
+						continue support these programs to further promote economic growth and eliminate poverty and
+						economic inequality.
+					</p>
+				</div>
+			</div>
+
+			<!-- Health & Well-Being goal -->
+			<div class="card-deck">
+				<div class="crime">
+					<h1>Health & Well-Being</h1>
+					<p><img align="left" src="img/crimeImg1.jpg" title="Click me!" alt="Crime in Brazil"
+							class="crimeImg">
+						<img align="left" src="img/crimeRateBrazil.jpg" alt="Crime rates Brazil" class="crimeRates">
+						The health and well-being of Brazillians has been disrupted throughout the nations history
+						resulting from economic instability and crime. Brazil has some of the highest rates of crime due
+						to corruption in law enforcement and politics as well as a large involvement in organized crime
+						and gangs. In recent years, the country has made significant changes to promote the health and
+						well-being of citizens in order to improve their quality of life.
+						<br>
+						<br>
+						Although there is still a need for more healthcare infrastrucutre, the government provides free
+						healthcare to all Brazillian citizens through the Unified Health System (SUS). This has helped
+						to greatly increase life expectancy by improving health outcomes for the sick and reducing
+						infant mortality rates to those that have access to these resources. Along with this free
+						healthcare system, the government also has a national immunization program that provides free
+						vaccines to all citizens which was introduced to combat the prevelance of infectious diseases.
+						Families that reside in more uinderserved areas of the country have access to a system called
+						the Fmaily Health Strategy, which is a healthcare programs that provides care to families inside
+						their homes or with an established community health center.
+						<br>
+						<br>
+						These programs and inititaves created by the government show that they are taking appropriate
+						action to tackle some of the economic challenges families in the nation face, however these
+						measures are easier to implement when there are limited resources. In order to improve quality
+						and access through the country, they should look into more initiatives that will promote
+						healthcare infrastructure so that access to these resources is expanded to more groups.
+					</p>
+				</div>
+			</div> <!-- end of card deck div -->
+			<a id="toTop" href="#">Top</a>
+		</div> <!-- end of container div -->
+	</div> <!-- end of UNgoals1 div -->
+</body>
+
+</html>
